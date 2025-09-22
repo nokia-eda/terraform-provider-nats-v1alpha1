@@ -299,7 +299,7 @@
                         "name": "status",
                         "single_nested": {
                             "computed_optional_required": "computed",
-                            "description": "ClusterExportStatus defines the observed state of ClusterExport"
+                            "description": "ClusterExportStatus defines the observed state of ClusterExport."
                         }
                     }
                 ]
@@ -324,7 +324,7 @@
                         }
                     },
                     {
-                        "name": "labelselector",
+                        "name": "label_selector",
                         "string": {
                             "computed_optional_required": "computed_optional",
                             "description": "a label selector string to filter the results based on CR labels"
@@ -556,7 +556,7 @@
                                         "name": "status",
                                         "single_nested": {
                                             "computed_optional_required": "computed",
-                                            "description": "ClusterExportStatus defines the observed state of ClusterExport"
+                                            "description": "ClusterExportStatus defines the observed state of ClusterExport."
                                         }
                                     }
                                 ]
@@ -749,7 +749,7 @@
                                     }
                                 }
                             ],
-                            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher"
+                            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher."
                         }
                     }
                 ]
@@ -774,7 +774,7 @@
                         }
                     },
                     {
-                        "name": "labelselector",
+                        "name": "label_selector",
                         "string": {
                             "computed_optional_required": "computed_optional",
                             "description": "a label selector string to filter the results based on CR labels"
@@ -951,7 +951,7 @@
                                                     }
                                                 }
                                             ],
-                                            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher"
+                                            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher."
                                         }
                                     }
                                 ]
@@ -1202,7 +1202,7 @@
                         "name": "status",
                         "single_nested": {
                             "computed_optional_required": "computed",
-                            "description": "ExportStatus defines the observed state of Export"
+                            "description": "ExportStatus defines the observed state of Export."
                         }
                     }
                 ]
@@ -1227,7 +1227,7 @@
                         }
                     },
                     {
-                        "name": "labelselector",
+                        "name": "label_selector",
                         "string": {
                             "computed_optional_required": "computed_optional",
                             "description": "a label selector string to filter the results based on CR labels"
@@ -1462,7 +1462,7 @@
                                         "name": "status",
                                         "single_nested": {
                                             "computed_optional_required": "computed",
-                                            "description": "ExportStatus defines the observed state of Export"
+                                            "description": "ExportStatus defines the observed state of Export."
                                         }
                                     }
                                 ]
@@ -1668,7 +1668,7 @@
                                     }
                                 }
                             ],
-                            "description": "PublisherStatus defines the observed state of Publisher"
+                            "description": "PublisherStatus defines the observed state of Publisher."
                         }
                     }
                 ]
@@ -1693,7 +1693,7 @@
                         }
                     },
                     {
-                        "name": "labelselector",
+                        "name": "label_selector",
                         "string": {
                             "computed_optional_required": "computed_optional",
                             "description": "a label selector string to filter the results based on CR labels"
@@ -1883,7 +1883,7 @@
                                                     }
                                                 }
                                             ],
-                                            "description": "PublisherStatus defines the observed state of Publisher"
+                                            "description": "PublisherStatus defines the observed state of Publisher."
                                         }
                                     }
                                 ]
@@ -2272,7 +2272,7 @@
                         "name": "status",
                         "single_nested": {
                             "computed_optional_required": "computed_optional",
-                            "description": "ClusterExportStatus defines the observed state of ClusterExport"
+                            "description": "ClusterExportStatus defines the observed state of ClusterExport."
                         }
                     },
                     {
@@ -2557,7 +2557,7 @@
                                     }
                                 }
                             ],
-                            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher"
+                            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher."
                         }
                     },
                     {
@@ -2863,7 +2863,7 @@
                         "name": "status",
                         "single_nested": {
                             "computed_optional_required": "computed_optional",
-                            "description": "ExportStatus defines the observed state of Export"
+                            "description": "ExportStatus defines the observed state of Export."
                         }
                     },
                     {
@@ -3161,7 +3161,7 @@
                                     }
                                 }
                             ],
-                            "description": "PublisherStatus defines the observed state of Publisher"
+                            "description": "PublisherStatus defines the observed state of Publisher."
                         }
                     },
                     {

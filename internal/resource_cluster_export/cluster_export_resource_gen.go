@@ -235,8 +235,8 @@ func ClusterExportResourceSchema(ctx context.Context) schema.Schema {
 				},
 				Optional:            true,
 				Computed:            true,
-				Description:         "ClusterExportStatus defines the observed state of ClusterExport",
-				MarkdownDescription: "ClusterExportStatus defines the observed state of ClusterExport",
+				Description:         "ClusterExportStatus defines the observed state of ClusterExport.",
+				MarkdownDescription: "ClusterExportStatus defines the observed state of ClusterExport.",
 			},
 		},
 	}

@@ -195,8 +195,8 @@ func ClusterPublisherResourceSchema(ctx context.Context) schema.Schema {
 				},
 				Optional:            true,
 				Computed:            true,
-				Description:         "ClusterPublisherStatus defines the observed state of ClusterPublisher",
-				MarkdownDescription: "ClusterPublisherStatus defines the observed state of ClusterPublisher",
+				Description:         "ClusterPublisherStatus defines the observed state of ClusterPublisher.",
+				MarkdownDescription: "ClusterPublisherStatus defines the observed state of ClusterPublisher.",
 			},
 		},
 	}

@@ -26,7 +26,7 @@ description: |-
 - `kind` (String)
 - `name` (String) name of the Export
 - `namespace` (String) the namespace scope in which to operate
-- `status` (Attributes) ExportStatus defines the observed state of Export (see [below for nested schema](#nestedatt--status))
+- `status` (Attributes) ExportStatus defines the observed state of Export. (see [below for nested schema](#nestedatt--status))
 
 <a id="nestedatt--metadata"></a>
 ### Nested Schema for `metadata`

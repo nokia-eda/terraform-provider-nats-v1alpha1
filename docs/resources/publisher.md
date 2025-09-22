@@ -26,7 +26,7 @@ description: |-
 - `kind` (String)
 - `name` (String) name of the Publisher
 - `namespace` (String) the namespace scope in which to operate
-- `status` (Attributes) PublisherStatus defines the observed state of Publisher (see [below for nested schema](#nestedatt--status))
+- `status` (Attributes) PublisherStatus defines the observed state of Publisher. (see [below for nested schema](#nestedatt--status))
 
 <a id="nestedatt--metadata"></a>
 ### Nested Schema for `metadata`

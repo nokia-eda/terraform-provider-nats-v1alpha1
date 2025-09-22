@@ -204,8 +204,8 @@ func PublisherResourceSchema(ctx context.Context) schema.Schema {
 				},
 				Optional:            true,
 				Computed:            true,
-				Description:         "PublisherStatus defines the observed state of Publisher",
-				MarkdownDescription: "PublisherStatus defines the observed state of Publisher",
+				Description:         "PublisherStatus defines the observed state of Publisher.",
+				MarkdownDescription: "PublisherStatus defines the observed state of Publisher.",
 			},
 		},
 	}

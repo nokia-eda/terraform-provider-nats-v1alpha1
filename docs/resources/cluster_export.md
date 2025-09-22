@@ -25,7 +25,7 @@ description: |-
 - `api_version` (String)
 - `kind` (String)
 - `name` (String) name of the ClusterExport
-- `status` (Attributes) ClusterExportStatus defines the observed state of ClusterExport (see [below for nested schema](#nestedatt--status))
+- `status` (Attributes) ClusterExportStatus defines the observed state of ClusterExport. (see [below for nested schema](#nestedatt--status))
 
 <a id="nestedatt--metadata"></a>
 ### Nested Schema for `metadata`

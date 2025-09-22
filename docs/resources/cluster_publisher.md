@@ -25,7 +25,7 @@ description: |-
 - `api_version` (String)
 - `kind` (String)
 - `name` (String) name of the ClusterPublisher
-- `status` (Attributes) ClusterPublisherStatus defines the observed state of ClusterPublisher (see [below for nested schema](#nestedatt--status))
+- `status` (Attributes) ClusterPublisherStatus defines the observed state of ClusterPublisher. (see [below for nested schema](#nestedatt--status))
 
 <a id="nestedatt--metadata"></a>
 ### Nested Schema for `metadata`

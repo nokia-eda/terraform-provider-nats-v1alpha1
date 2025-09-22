@@ -836,7 +836,7 @@
             }
           },
           "status": {
-            "description": "ClusterExportStatus defines the observed state of ClusterExport",
+            "description": "ClusterExportStatus defines the observed state of ClusterExport.",
             "readOnly": true,
             "title": "Status",
             "type": "object",
@@ -1143,7 +1143,7 @@
             }
           },
           "status": {
-            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher",
+            "description": "ClusterPublisherStatus defines the observed state of ClusterPublisher.",
             "properties": {
               "connected": {
                 "description": "Specifies if the client is connected to the NATS cluster",
@@ -1542,7 +1542,7 @@
             }
           },
           "status": {
-            "description": "ExportStatus defines the observed state of Export",
+            "description": "ExportStatus defines the observed state of Export.",
             "readOnly": true,
             "title": "Status",
             "type": "object",
@@ -1867,7 +1867,7 @@
             }
           },
           "status": {
-            "description": "PublisherStatus defines the observed state of Publisher",
+            "description": "PublisherStatus defines the observed state of Publisher.",
             "properties": {
               "connected": {
                 "description": "Specifies if the client is connected to the NATS cluster",

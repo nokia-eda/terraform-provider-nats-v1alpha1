@@ -19,7 +19,7 @@ description: |-
 
 - `fields` (String) a comma-separated list of resource fields to fetch/return.  If unspecified, all fields are fetched.  If empty, only key-fields are fetched.
 - `filter` (String) an EQL "where" expression that will be used to filter the set of resources returned.
-- `labelselector` (String) a label selector string to filter the results based on CR labels
+- `label_selector` (String) a label selector string to filter the results based on CR labels
 
 ### Read-Only
 
@@ -39,7 +39,7 @@ Read-Only:
 - `api_version` (String)
 - `kind` (String)
 - `metadata` (Attributes) (see [below for nested schema](#nestedatt--items--metadata))
-- `status` (Attributes) ClusterExportStatus defines the observed state of ClusterExport (see [below for nested schema](#nestedatt--items--status))
+- `status` (Attributes) ClusterExportStatus defines the observed state of ClusterExport. (see [below for nested schema](#nestedatt--items--status))
 
 <a id="nestedatt--items--spec"></a>
 ### Nested Schema for `items.spec`

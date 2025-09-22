@@ -30,7 +30,7 @@ description: |-
 - `api_version` (String)
 - `kind` (String)
 - `metadata` (Attributes) (see [below for nested schema](#nestedatt--metadata))
-- `status` (Attributes) PublisherStatus defines the observed state of Publisher (see [below for nested schema](#nestedatt--status))
+- `status` (Attributes) PublisherStatus defines the observed state of Publisher. (see [below for nested schema](#nestedatt--status))
 
 <a id="nestedatt--spec"></a>
 ### Nested Schema for `spec`

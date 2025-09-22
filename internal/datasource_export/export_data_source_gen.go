@@ -209,8 +209,8 @@ func ExportDataSourceSchema(ctx context.Context) schema.Schema {
 					},
 				},
 				Computed:            true,
-				Description:         "ExportStatus defines the observed state of Export",
-				MarkdownDescription: "ExportStatus defines the observed state of Export",
+				Description:         "ExportStatus defines the observed state of Export.",
+				MarkdownDescription: "ExportStatus defines the observed state of Export.",
 			},
 		},
 	}
