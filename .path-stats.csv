@@ -11,7 +11,9 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},PATCH,Patch,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},PUT,com.nokia.eda.nats.v1alpha1.ClusterExport,cluster_export,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}/_revs,GET,ResourceHistory,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}/_targets,GET,IntentTargets,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}/_topology,GET,ResourceTopology,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}/_topology,POST,K8STopologyRequest,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers,DELETE,com.nokia.eda.nats.v1alpha1.ClusterPublisherList,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers,GET,com.nokia.eda.nats.v1alpha1.ClusterPublisherList,cluster_publisher_list,true,true,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers,POST,com.nokia.eda.nats.v1alpha1.ClusterPublisher,cluster_publisher,true,false,true
@@ -21,7 +23,9 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},PATCH,Patch,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},PUT,com.nokia.eda.nats.v1alpha1.ClusterPublisher,cluster_publisher,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}/_revs,GET,ResourceHistory,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}/_targets,GET,IntentTargets,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}/_topology,GET,ResourceTopology,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}/_topology,POST,K8STopologyRequest,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/exports,GET,com.nokia.eda.nats.v1alpha1.ExportList,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports,DELETE,com.nokia.eda.nats.v1alpha1.ExportList,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports,GET,com.nokia.eda.nats.v1alpha1.ExportList,export_list,true,true,false
@@ -32,7 +36,9 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},PATCH,Patch,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},PUT,com.nokia.eda.nats.v1alpha1.Export,export,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}/_revs,GET,ResourceHistory,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}/_targets,GET,IntentTargets,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}/_topology,GET,ResourceTopology,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}/_topology,POST,K8STopologyRequest,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers,DELETE,com.nokia.eda.nats.v1alpha1.PublisherList,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers,GET,com.nokia.eda.nats.v1alpha1.PublisherList,publisher_list,true,true,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers,POST,com.nokia.eda.nats.v1alpha1.Publisher,publisher,true,false,true
@@ -42,5 +48,7 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},PATCH,Patch,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},PUT,com.nokia.eda.nats.v1alpha1.Publisher,publisher,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}/_revs,GET,ResourceHistory,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}/_targets,GET,IntentTargets,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}/_topology,GET,ResourceTopology,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}/_topology,POST,K8STopologyRequest,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/publishers,GET,com.nokia.eda.nats.v1alpha1.PublisherList,,false,false,false
