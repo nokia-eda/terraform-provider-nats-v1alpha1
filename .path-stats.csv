@@ -8,7 +8,7 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/_deleted,GET,com.nokia.eda.nats.v1alpha1.ClusterExport_DeletedResources,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},DELETE,Status,cluster_export,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},GET,com.nokia.eda.nats.v1alpha1.ClusterExport,cluster_export,true,true,true
-/apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},PATCH,Patch,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},PATCH,com.nokia.eda.nats.v1alpha1.ClusterExport,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name},PUT,com.nokia.eda.nats.v1alpha1.ClusterExport,cluster_export,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}/_revs,GET,ResourceHistory,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}/_targets,GET,IntentTargets,,false,false,false
@@ -20,7 +20,7 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/_deleted,GET,com.nokia.eda.nats.v1alpha1.ClusterPublisher_DeletedResources,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},DELETE,Status,cluster_publisher,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},GET,com.nokia.eda.nats.v1alpha1.ClusterPublisher,cluster_publisher,true,true,true
-/apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},PATCH,Patch,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},PATCH,com.nokia.eda.nats.v1alpha1.ClusterPublisher,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name},PUT,com.nokia.eda.nats.v1alpha1.ClusterPublisher,cluster_publisher,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}/_revs,GET,ResourceHistory,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}/_targets,GET,IntentTargets,,false,false,false
@@ -33,7 +33,7 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/_deleted,GET,com.nokia.eda.nats.v1alpha1.Export_DeletedResources,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},DELETE,Status,export,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},GET,com.nokia.eda.nats.v1alpha1.Export,export,true,true,true
-/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},PATCH,Patch,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},PATCH,com.nokia.eda.nats.v1alpha1.Export,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name},PUT,com.nokia.eda.nats.v1alpha1.Export,export,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}/_revs,GET,ResourceHistory,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}/_targets,GET,IntentTargets,,false,false,false
@@ -45,7 +45,7 @@ Path,Method,Schema,Model Name,Supported,Datasource,Resource
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/_deleted,GET,com.nokia.eda.nats.v1alpha1.Publisher_DeletedResources,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},DELETE,Status,publisher,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},GET,com.nokia.eda.nats.v1alpha1.Publisher,publisher,true,true,true
-/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},PATCH,Patch,,false,false,false
+/apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},PATCH,com.nokia.eda.nats.v1alpha1.Publisher,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name},PUT,com.nokia.eda.nats.v1alpha1.Publisher,publisher,true,false,true
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}/_revs,GET,ResourceHistory,,false,false,false
 /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}/_targets,GET,IntentTargets,,false,false,false
