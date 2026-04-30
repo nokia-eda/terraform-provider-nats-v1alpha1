@@ -1,0 +1,110 @@
+provider:
+  name: nats
+
+data_sources:
+  app_group:
+    read:
+      path: /apps/nats.eda.nokia.com
+      method: GET
+
+  cluster_export:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}
+      method: GET
+
+  cluster_export_list:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterexports
+      method: GET
+
+  cluster_publisher:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}
+      method: GET
+
+  cluster_publisher_list:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers
+      method: GET
+
+  export:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}
+      method: GET
+
+  export_list:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports
+      method: GET
+
+  publisher:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}
+      method: GET
+
+  publisher_list:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers
+      method: GET
+
+  resource_list:
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1
+      method: GET
+
+resources:
+  cluster_export:
+    create:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterexports
+      method: POST
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}
+      method: GET
+    update:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}
+      method: PUT
+    delete:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterexports/{name}
+      method: DELETE
+
+  cluster_publisher:
+    create:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers
+      method: POST
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}
+      method: GET
+    update:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}
+      method: PUT
+    delete:
+      path: /apps/nats.eda.nokia.com/v1alpha1/clusterpublishers/{name}
+      method: DELETE
+
+  export:
+    create:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports
+      method: POST
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}
+      method: GET
+    update:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}
+      method: PUT
+    delete:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/exports/{name}
+      method: DELETE
+
+  publisher:
+    create:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers
+      method: POST
+    read:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}
+      method: GET
+    update:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}
+      method: PUT
+    delete:
+      path: /apps/nats.eda.nokia.com/v1alpha1/namespaces/{namespace}/publishers/{name}
+      method: DELETE
